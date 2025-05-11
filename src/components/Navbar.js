@@ -24,7 +24,7 @@ export default function Navbar(props) {
             htmlFor="flexSwitchCheckDefault"
             style={{ cursor: 'pointer' }}
           >
-            {props.mode === 'light' ? 'Enable Dark Mode' : 'Enable Light Mode'}
+            {props.mode === 'light' ? 'Dark Mode' : 'Light Mode'}
           </label>
         </div>
       </div>
